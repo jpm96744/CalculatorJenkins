@@ -23,7 +23,7 @@ pipeline {
             }
         }
 
-        stage ('Long Tests') {
+        stage ('Long tests') {
             steps {
                 sh 'mvn -Dtest=CalculatorTestThorough test'
             }
