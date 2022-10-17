@@ -1,6 +1,7 @@
 import java.util.UUID;
 
 class Calculator {
+    private int uselessV;
 
     Calculator(){
 
